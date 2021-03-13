@@ -8,8 +8,8 @@ const queueURL = "https://sqs.us-east-1.amazonaws.com/918740485184/OutputRespons
 const { Consumer } = require('sqs-consumer');
 
 aws.config.update({
-    secretAccessKey: 'JPPxIjfF0yCWsYMmaW7PVzVmpEzQYPq/ew9brkzc',
-    accessKeyId: 'AKIA5L2JTIRAFJY4FDTU',
+    secretAccessKey: '',
+    accessKeyId: '',
     region: 'us-east-1'
 });
 
